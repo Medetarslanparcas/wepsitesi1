@@ -1,0 +1,95 @@
+footer{
+    background-color:gray;
+    color: black;
+    display:flex;
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+    bottom: 0%;
+    position: relative;
+    
+    
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+
+h4{
+    color: orange;
+    margin-left: 12%;
+   
+   
+}
+
+.ilkSatir{
+    
+   font-weight: 600;
+    float: left;
+    display: block;
+    position: relative;
+    left: 15%;
+}
+
+.ikinciSatir{
+    font-weight: 600;
+    float: left;
+    display: block;
+    position: relative;
+    left: 20%;
+    flex-direction: column;
+}
+
+.ucuncuSatir{
+    font-weight: 600;
+    float: left;
+    display: block;
+    position: relative;
+    left: 20%;
+}
+.dorduncuSatir{
+    font-weight: 600;
+    float: left;
+    display: block;
+    position: relative;
+    left: 24%;
+}
+
+.ikinciSatir ul li img {
+    width: 50px;
+    height: 30px;
+   margin-top: 10%;
+}
+
+
+.altinciSatir{
+    margin-left: 5%;
+    font-weight: 600;
+    float: left;
+    display: block;
+    position: relative;
+    left: 23%;
+}
+.altinciSatir img{
+    width: 30px;
+    height: 30px;
+
+}
+
+.sosyalMedya{
+    position:relative;
+    display: flex;
+    float: left;
+    left: 13%;
+
+    flex-wrap:nowrap;
+}
+
+.sosyalMedya img{
+    width: 30px;
+    height: 20px;
+    margin-top: 90%;
+    margin-left: 5%;
+   
+}

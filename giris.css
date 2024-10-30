@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    width: 500px;
+    margin: 0px auto;
+    justify-content: center; /* İçeriği ortala */
+}
+
+.item {
+    flex: 1; /* Eşit genişlikte olmalarını sağlamak için */
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px black solid;
+    background: #369;
+    cursor: pointer;
+    margin: 0 5px; /* Boşluk ekleyin */
+    
+}
+
+.item:hover {
+    background: #1a598c; /* Hover efekti ekledim, isteğe bağlı */
+}
+
+.form-container {
+    width: 100%; /* Tam genişlik */
+    margin: 20px 0; /* Boşluk ekleyin */
+}
